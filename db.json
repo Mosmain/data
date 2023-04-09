@@ -1,8 +1,173 @@
 {
-  "users": [
+  "products": [
     {
       "id": 1,
-      "name": "posos"
+      "name": "Product 1",
+      "description": "This is the description for Product 1",
+      "image_urls": [
+        "https://example.com/product1_1.jpg",
+        "https://example.com/product1_2.jpg"
+      ],
+      "price": 9.99,
+      "category": "Category 1",
+      "quantity": 50
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "description": "This is the description for Product 2",
+      "image_urls": ["https://example.com/product2_1.jpg"],
+      "price": 14.99,
+      "category": "Category 2",
+      "quantity": 30
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "This is the description for Product 3",
+      "image_urls": [
+        "https://example.com/product3_1.jpg",
+        "https://example.com/product3_2.jpg"
+      ],
+      "price": 19.99,
+      "category": "Category 1",
+      "quantity": 20
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "This is the description for Product 4",
+      "image_urls": [
+        "https://example.com/product4_1.jpg",
+        "https://example.com/product4_2.jpg",
+        "https://example.com/product4_3.jpg"
+      ],
+      "price": 24.99,
+      "category": "Category 3",
+      "quantity": 15
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "This is the description for Product 5",
+      "image_urls": ["https://example.com/product5_1.jpg"],
+      "price": 12.99,
+      "category": "Category 2",
+      "quantity": 40
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Category 1",
+      "description": "This is the description for Category 1",
+      "image_url": "https://example.com/category1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Category 2",
+      "description": "This is the description for Category 2",
+      "image_url": "https://example.com/category2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Category 3",
+      "description": "This is the description for Category 3",
+      "image_url": "https://example.com/category3.jpg"
+    }
+  ],
+  "users": [
+    {
+      "username": "user1",
+      "name": "John Smith",
+      "age": 25,
+      "gender": "male",
+      "date_of_birth": "1998-01-01",
+      "date_of_registration": "2021-02-15",
+      "purchase_history": [
+        {
+          "id": 1,
+          "date": "2021-03-01",
+          "total_price": 29.99,
+          "items": [
+            {
+              "product_name": "Product 1",
+              "quantity": 1,
+              "price": 9.99
+            },
+            {
+              "product_name": "Product 2",
+              "quantity": 2,
+              "price": 9.5
+            },
+            {
+              "product_name": "Product 3",
+              "quantity": 1,
+              "price": 1.0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2021-04-15",
+          "total_price": 24.99,
+          "items": [
+            {
+              "product_name": "Product 4",
+              "quantity": 1,
+              "price": 24.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "user2",
+      "name": "Jane Doe",
+      "age": 35,
+      "gender": "female",
+      "date_of_birth": "1986-05-10",
+      "date_of_registration": "2020-11-30",
+      "purchase_history": [
+        {
+          "id": 1,
+          "date": "2021-01-01",
+          "total_price": 15.99,
+          "items": [
+            {
+              "product_name": "Product 1",
+              "quantity": 1,
+              "price": 9.99
+            },
+            {
+              "product_name": "Product 5",
+              "quantity": 2,
+              "price": 3.0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "date": "2021-03-15",
+          "total_price": 44.97,
+          "items": [
+            {
+              "product_name": "Product 2",
+              "quantity": 3,
+              "price": 14.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "username": "user3",
+      "name": "Bob Johnson",
+      "age": 42,
+      "gender": "male",
+      "date_of_birth": "1979-09-20",
+      "date_of_registration": "2022-03-25",
+      "purchase_history": []
     }
   ]
 }
